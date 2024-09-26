@@ -82,17 +82,36 @@ WSGI_APPLICATION = 'school.wsgi.application'
 #     }
 # }
 
+########local 
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'school',           # Database name
+#         'USER': 'postgres',         # Your PostgreSQL username (default is 'postgres')
+#         'PASSWORD': '1234',         # Your PostgreSQL password
+#         'HOST': 'localhost',        # The hostname
+#         'PORT': '5432',             # The default PostgreSQL port (5432)
+#     }
+# }
+
+############ server 
+
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'school',           # Database name
-        'USER': 'postgres',         # Your PostgreSQL username (default is 'postgres')
-        'PASSWORD': '1234',         # Your PostgreSQL password
-        'HOST': 'localhost',        # The hostname
-        'PORT': '5432',             # The default PostgreSQL port (5432)
+        'NAME': 'd25qaa8kuhagj',
+        'USER': 'u7iptdjma65412',
+        'PASSWORD': 'pceccb17d248accbbcb77a21420e5642393421d0c69f12c300d1fe6aeb898c157',
+        'HOST': 'c67okggoj39697.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'PORT': '5432'
     }
 }
+
+
+
+
 
 
 
