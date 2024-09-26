@@ -8,6 +8,7 @@ class SchoolManagements(models.Model):
     description = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    Heroku_External_ID = models.IntegerField(default=1)
 
     def __str__(self):
         return self.name
